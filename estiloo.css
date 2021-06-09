@@ -1,0 +1,101 @@
+body{
+    margin:0;
+}
+.encabezado-redes-sociales {
+    background-color:gray;
+    height: 90 px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav {
+
+    height: 90px;
+    background-color: rgb(185, 185, 185);
+    display: flex; justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+
+.encabezado-redes-sociales i{
+ color: rgb(255, 255, 255);
+}
+
+.encabezado-redes-sociales a{
+margin-right: 15px;
+}
+
+nav .nav-imagen-logo img{
+    height: 90px;
+}
+
+nav .nav-menu ul{
+
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+
+    margin-right: 20px;
+}
+
+nav .nav-menu-ul a{
+    text-decoration: none;
+}
+
+.blog-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blog-titulo img{
+    width: 300px;
+}
+
+.nombre-yo h1{
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.nombre-yo h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.nombre-yo h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.footer{
+    height: 60px;
+    background-image: linear-gradient(gray,rgb(114, 111, 111));
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto Condensed';
+
+}
+.footer img{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+}
